@@ -1,0 +1,256 @@
+body {
+    width: 1350px;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    background: #2d6f7a;
+    font-size: 16px;
+}
+
+h1 {
+    position: sticky;
+    top: 0;
+    background-color: #e92705;
+    border: 2px solid #a5c41b;
+    color: #00d9ff;
+    padding: 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    animation-name: ani1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani1 {
+    0% {
+        color: #00d9ff;
+        background: #8714f3;
+    }
+    25% {
+        color: #0227c9;
+        background: #08f8ec;
+    }
+    50% {
+        color: #e605e6;
+        background: #e7eb18;
+    }
+    75% {
+        color: aliceblue;
+        background: #08080a;
+    }
+    100% {
+        color: #d6800f;
+        background: #2d6f7a;
+    }
+}
+
+.c1 {
+    width: 600px;
+    height: 400px;
+    background: #03800f;
+    position: relative;
+    float: left;
+    animation: ani2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes ani2 {
+    0% {
+        background: #03800f;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background: #6c08af;
+        left: 0px;
+        top: 300px;
+    }
+    50% {
+        background: #f06204;
+        left: 300px;
+        top: 300px;
+    }
+    75% {
+        background: #bd0671;
+        left: 300px;
+        top: 0px;
+    }
+    100% {
+        background: #23a1a5;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.c2 {
+    width: 300px;
+    height: 300px;
+    background: #f81808;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+    animation-name: c2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes c2 {
+    0% {
+        background: #f10d0d;
+    }
+    25% {
+        background: #257d8d;
+    }
+    50% {
+        background: #3a09eb;
+    }
+    100% {
+        background: #bc08e9;
+    }
+}
+
+.c3 {
+    width: 150px;
+    height: 50px;
+    background: #e92705;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation-name: p1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes p1 {
+    0% {
+        background: #0227c9;
+    }
+    25% {
+        background: #b40d3f;
+    }
+    50% {
+        background: #78b8d6;
+    }
+    100% {
+        background: #e607e6;
+    }
+}
+
+.p1 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #08f8ec;
+}
+
+.d1 {
+    width: 400px;
+    height: 400px;
+    background: hsl(24, 52%, 82%);
+    position: relative;
+    float: left;
+    margin: 0px 0px 0px 200px;
+    animation-name: d1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes d1 {
+    0% {
+        background: #03800f;
+        left: 0px;
+        top: 0px
+    }
+    25% {
+        background: #df4111;
+        left: 0px;
+        top: 0px
+    }
+    50% {
+        background: #1b96cf;
+        left: 0px;
+        top: 0px
+    }
+    100% {
+        background: #08080a;
+        left: 0px;
+        top: 300px;
+    }
+}
+
+.d2 {
+    width: 150px;
+    height: 150px;
+    background: #87c91e;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.d3 {
+    width: 150px;
+    height: 150px;
+    background: #1ec9c0;
+    float: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.d4 {
+    width: 150px;
+    height: 150px;
+    background: #d6800f;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+.d5 {
+    width: 150px;
+    height: 150px;
+    background: #0227c9;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+h3 {
+    font-size: 48px;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    opacity: .5;
+    animation-name: h3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes h3 {
+    0% {
+        color: #00d9ff
+    }
+    25% {
+        color: #18d328
+    }
+    50% {
+        color: #d30bd3
+    }
+    100% {
+        color: #e26218fd
+    }
+}
